@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding: 30px;
+    background-color: #952210;
+    color: #ecc8af;
+    font-family: "Quintessential", serif;
+    }
+body, input, textarea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header li{
+    display: inline;
+    margin: 30px;
+    font-size: 22px;
+}
+header li a{
+    text-decoration: none;
+    color: #ecc8af;
+}
+h2{
+    font-family: "Quintessential", serif;
+}
+h2, p{
+    padding: 10px 40px;
+}
+section .container,
+section .services-container{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section .services-container{
+    justify-content: space-evenly;
+}
+.services-container img{
+    height: 280px;
+}
+.services-container p{
+    width: 90%;
+}
+h3 {
+    margin-bottom: 16px;
+}
+section .contact-methods{
+    text-align: center;
+}
+.contact-methods img {
+    height: 20px;
+    padding-right: 5px;
+}
+.contact-methods li a{
+    text-decoration: none;
+    color: #ec7171;
+}
+footer, #contact{
+    height: 250px;
+    background-color: #373c3f;
+    color: #ec7171;
+    font-family: "Quintessential", serif;
+    font-size: 18px;
+}
+#about{
+    background-color: #c1825d;
+    color: black;
+}
+#services{
+    background-color: #ecc8af;
+    color: #952210;
+}
